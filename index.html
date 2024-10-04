@@ -3,75 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Assignment</title>
-    <style>
-      table, th, td {
-          border: 1px solid black;
-          border-collapse: collapse;
-          padding: 5px;
-      }
-    </style>
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main>
-      <h1>Welcome to My Web Page</h1>
-      <ul>
-        <li><a href="#1">Section 1</a></li>
-        <li><a href="#2">Section 2</a></li>
-        <li><a href="#3">Section 3</a></li>
-      </ul>
-    </main>
-    <section  id="1">
-      <h2>Section 1</h2>
-      <p>This is some text in section 1.</p>
-      <table>
-        <thead>
-          <tr>
-            <th rowspan="2">Header 1</th>
-            <th colspan="2">Header 2</th>
-          </tr>
-          <tr>
-            <th>Subheader 1</th>
-            <th>Subheader 2</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Row 1, Cell 1</td>
-            <td>Row 1, Cell 2</td>
-            <td rowspan="2"></td>
-          </tr>
-          <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section id="2">
-      <h2>Section 2</h2>
-      <p>This is some text in section 2. <b>Bold text</b> and <i>italic text</i>.</p>
-    </section>
-    <section id="3">
-      <h2>Section 3</h2>
-      <p>This is some text in section 3. You can use <sup>superscript</sup> and <sub>subscript</sub> text. Also, you can emphasize text with <em>emphasis</em></p>
+    <div class="container">
+      <img src="linkedin.jpg" alt="linkedin">
+      <h1>Sign in</h1>
+      <p>Stay updated on your professional world</p>
       <form action="" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" /><br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /><br />
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea><br />
-        <label for="color">Choose a color:</label>
-        <select name="color" id="color">
-          <option value="Red">Red</option>
-          <option value="Green">Green</option>
-          <option value="Blue">Blue</option>
-        </select><br />
-        <input type="checkbox" name="newsletter" id="newsletter">
-        <label for="newsletter">Subscribe to our newsletter</label><br />
-        <input type="submit" value="Submit">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br />
+        <input type="password" name="password" id="password" placeholder="Password">
       </form>
-    </section>
+      <a href="">Forgot Password?</a>
+      <br />
+      <button>Sign in</button>
+      <br />
+      <a href="">New to linkedin?</a>
+      <a href="">Join now</a>
+    </div>
   </body>
 </html>
